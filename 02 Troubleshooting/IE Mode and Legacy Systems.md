@@ -19,6 +19,13 @@ Common symptoms:
 
 Some old systems are built for Internet Explorer behavior. Edge can emulate that through IE Mode, but only for configured URLs. If the exact URL, protocol, or popup page is not included, part of the system may open in normal Edge mode and fail.
 
+## Important rule from 2026-07-02
+
+- IE Mode should only be used for YINXUN / 音訊.
+- Other old internal web pages may not need IE Mode.
+- Some older pages should be opened through the internal local host/address instead.
+- Compatibility mode also needs to be enabled when required.
+
 ## Checklist
 
 1. Confirm exact issue:
@@ -35,28 +42,33 @@ Some old systems are built for Internet Explorer behavior. Edge can emulate that
 4. Confirm exact URL:
    - `http`
    - `https`
-5. Confirm IE Mode:
+5. Confirm whether this system should use IE Mode:
+   - YINXUN / 音訊: yes, based on current notes
+   - other old pages: do not assume; check first
+6. Check IE Mode:
    - look for IE icon near the address bar
-6. Check Edge IE settings:
+7. Check compatibility mode if the system requires it.
+8. Check Edge IE settings:
    - `edge://settings/defaultBrowser`
-7. Check IE diagnostics:
+9. Check IE diagnostics:
    - `edge://compat/iediagnostic`
-8. Try safe fixes:
+10. Try safe fixes:
    - restart Edge
    - use the exact saved URL
    - re-add the IE Mode entry
    - allow popup windows
-9. If still failing, escalate with clear information.
+11. If still failing, escalate with clear information.
 
 ## Specific notes from internship
 
-### 音訊 system
+### 音訊 / YINXUN system
 
 Possible causes:
 
 - IE Mode / Edge mode mismatch
 - popup window opens after clicking a feature, but popup is normal Edge mode
 - URL was saved as `https`, but the system needs `http`
+- compatibility mode is not enabled
 
 Check near the URL bar for IE-mode status or settings.
 
@@ -73,3 +85,4 @@ Check near the URL bar for IE-mode status or settings.
 
 - [[2026-06-24]]
 - [[2026-07-01]]
+- [[2026-07-02]]
