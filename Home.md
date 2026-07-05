@@ -25,7 +25,16 @@ Use daily logs to remember what happened on a specific day.
 - [[Printer Spooler]]
 - [[Meeting Room Display and HDMI]]
 - [[WiFi and AP Basic Checks]]
+- [[File Copy and Permission Issues]]
 - [[Windows Repair and Evidence Collection]]
+
+## Core IT support concepts
+
+- [[Windows Service Troubleshooting Basics]]
+- [[Windows Services and Event Viewer]]
+- [[Event Viewer Reading Guide]]
+- [[Basic Network Commands for Support]]
+- [[Windows Domain AD and Permissions]]
 
 ## Internal systems and workflows
 
@@ -39,8 +48,6 @@ Use daily logs to remember what happened on a specific day.
 ## Learning
 
 - [[Learning Backlog]]
-- [[Windows Domain AD and Permissions]]
-- [[Windows Services and Event Viewer]]
 - [[Docker PHP DB Apache]]
 - [[PHP MVC CodeIgniter Laravel]]
 - [[SQL on Ubuntu]]
