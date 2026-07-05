@@ -38,6 +38,20 @@ Keep both versions:
 - raw wording: useful because it preserves what was heard quickly
 - cleaned wording: useful because it is easier to search/read later
 
+## Expansion rule for learning notes
+
+When expanding notes, do not only write "check, record, report". Add practical explanation too:
+
+- explain the main concept first
+- explain confusing terms
+- give concrete low-risk fixes when possible
+- separate safe intern actions from admin/senior actions
+- include Windows settings paths when useful
+- include commands and what their outputs mean
+- include decision trees for problems with many possible causes
+
+Example: for Wi-Fi/AP issues, include terms like AP, SSID, DHCP, DNS, gateway, adapter, signal, and also include actions like forgetting a network, renewing IP, flushing DNS, disabling/enabling adapter, and when not to touch AP settings.
+
 ## Good reusable-note categories
 
 - troubleshooting fix
