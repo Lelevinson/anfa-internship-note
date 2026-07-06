@@ -17,6 +17,19 @@ Current understanding:
 
 See [[IE Mode and Legacy Systems]].
 
+## YINXUN account/password rule
+
+YINXUN may prompt for account/password.
+
+Important:
+
+- Do not assume every PT machine/account uses the same password.
+- PT01 and PT02 may use different passwords.
+- If a password prompt appears, ask the user or senior.
+- Do not store passwords in this vault.
+
+See [[YINXUN IE Mode and Login Checklist]].
+
 ## Network / permission rules
 
 Current understanding:
@@ -56,9 +69,11 @@ Usually safe:
 - Which systems require compatibility mode?
 - Which URLs should not be saved in personal notes?
 - Which folders/systems require special permission from Alex or another senior?
+- Which PT machines/accounts have separate login credentials?
 
 ## Related notes
 
 - [[IE Mode and Legacy Systems]]
+- [[YINXUN IE Mode and Login Checklist]]
 - [[Windows Domain AD and Permissions]]
 - [[Systems Glossary]]
