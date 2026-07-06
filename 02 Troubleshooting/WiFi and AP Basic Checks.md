@@ -23,20 +23,20 @@ So a Wi-Fi problem is not always the AP itself. The problem may be on the device
 
 ## Terms
 
-| Term | Meaning |
-|---|---|
-| Wi-Fi adapter | The wireless network card inside the laptop/tablet/phone. |
-| AP / Access Point | Device on the ceiling/wall that broadcasts Wi-Fi in a room/area. |
-| SSID | Wi-Fi network name shown in the Wi-Fi list. |
-| Signal strength | How strong the Wi-Fi signal is. Low signal can connect but still be unstable. |
-| 2.4 GHz / 5 GHz | Wi-Fi frequency bands. 2.4 GHz reaches farther but is slower/crowded. 5 GHz is faster but shorter range. |
-| Roaming | Device moving from one AP to another AP with the same SSID. Sometimes the device sticks to a weak AP. |
-| IP address | Address given to the device so it can talk on the network. |
-| DHCP | Service that automatically gives IP addresses to devices. |
-| Gateway | Network device that sends traffic outside the local network. |
-| DNS | Service that turns names like an internal system name into an IP address. |
-| Ping | Basic test to see if a device/server can be reached. Some servers block it. |
-| Internal system | Company web/app/service that may only work on company network. |
+| Term              | Meaning                                                                                                  |
+| ----------------- | -------------------------------------------------------------------------------------------------------- |
+| Wi-Fi adapter     | The wireless network card inside the laptop/tablet/phone.                                                |
+| AP / Access Point | Device on the ceiling/wall that broadcasts Wi-Fi in a room/area.                                         |
+| SSID              | Wi-Fi network name shown in the Wi-Fi list.                                                              |
+| Signal strength   | How strong the Wi-Fi signal is. Low signal can connect but still be unstable.                            |
+| 2.4 GHz / 5 GHz   | Wi-Fi frequency bands. 2.4 GHz reaches farther but is slower/crowded. 5 GHz is faster but shorter range. |
+| Roaming           | Device moving from one AP to another AP with the same SSID. Sometimes the device sticks to a weak AP.    |
+| IP address        | Address given to the device so it can talk on the network.                                               |
+| DHCP              | Service that automatically gives IP addresses to devices.                                                |
+| Gateway           | Network device that sends traffic outside the local network.                                             |
+| DNS               | Service that turns names like an internal system name into an IP address.                                |
+| Ping              | Basic test to see if a device/server can be reached. Some servers block it.                              |
+| Internal system   | Company web/app/service that may only work on company network.                                           |
 
 ## First decision: what kind of Wi-Fi problem is it?
 
