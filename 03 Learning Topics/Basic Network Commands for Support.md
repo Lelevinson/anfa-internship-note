@@ -29,6 +29,42 @@ Use for:
 - checking gateway
 - checking DNS server
 - checking whether the adapter has a normal address
+- checking whether DHCP is enabled
+
+Important field:
+
+```text
+DHCP Enabled: Yes/No
+```
+
+If DHCP is `Yes`, the PC is automatically receiving its IP address from the network. If DHCP is `No`, it may have a static/manual IP, so do not casually renew/change it.
+
+See [[DHCP IP Renewal and Domain Login]].
+
+### ipconfig release/renew
+
+```powershell
+ipconfig /release
+ipconfig /renew
+```
+
+Use for refreshing DHCP IP address on normal user PCs when connected but network access is broken.
+
+This does not change the Windows/domain account. It only refreshes the network address. But it temporarily disconnects the network, and it should not be used casually on servers, printers, APs, medical devices, or machines with static/manual IP.
+
+Before using it, run:
+
+```powershell
+ipconfig /all
+```
+
+Check:
+
+```text
+DHCP Enabled: Yes
+```
+
+If it says `No`, stop and ask mentor/senior.
 
 ### ping
 
@@ -110,6 +146,7 @@ Example: internal web page cannot open.
 ## Related notes
 
 - [[WiFi and AP Basic Checks]]
+- [[DHCP IP Renewal and Domain Login]]
 - [[IE Mode and Legacy Systems]]
 - [[Internal System Access Rules]]
 - [[General IT Support Triage]]
