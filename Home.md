@@ -30,11 +30,13 @@ Use daily logs to remember what happened on a specific day.
 
 ## Core IT support concepts
 
+- [[Company Network Big Picture]]
+- [[Windows Domain AD and Permissions]]
+- [[DHCP IP Renewal and Domain Login]]
 - [[Windows Service Troubleshooting Basics]]
 - [[Windows Services and Event Viewer]]
 - [[Event Viewer Reading Guide]]
 - [[Basic Network Commands for Support]]
-- [[Windows Domain AD and Permissions]]
 
 ## Internal systems and workflows
 
