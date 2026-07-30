@@ -17,12 +17,16 @@ Use daily logs to remember what happened on a specific day.
 - [[2026-07-01]]
 - [[2026-07-02]]
 - [[2026-07-03]]
+- [[2026-07-06]]
+- [[2026-07-07]]
+- [[2026-07-30]]
 
 ## Most useful support notes
 
 - [[General IT Support Triage]]
 - [[IE Mode and Legacy Systems]]
 - [[Printer Spooler]]
+- [[Install Fuji Xerox Network Printers on a New Laptop]]
 - [[Meeting Room Display and HDMI]]
 - [[WiFi and AP Basic Checks]]
 - [[File Copy and Permission Issues]]
@@ -44,6 +48,7 @@ Use daily logs to remember what happened on a specific day.
 - [[Internal System Access Rules]]
 - [[音訊 YINXUN Item Pricing Workflow]]
 - [[Appointment and Registration Notes]]
+- [[EIS Bell Alarm Notification Test]]
 - [[客戶資料 Customer Data System]]
 - [[Equipment Locations]]
 
@@ -55,6 +60,7 @@ Use daily logs to remember what happened on a specific day.
 - [[SQL on Ubuntu]]
 - [[FTP Service]]
 - [[File Transfer Project]]
+- [[File Transfer Project - Filename Based Auto Send]]
 
 ## Glossary
 
