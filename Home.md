@@ -30,6 +30,7 @@ Use daily logs to remember what happened on a specific day.
 - [[Meeting Room Display and HDMI]]
 - [[WiFi and AP Basic Checks]]
 - [[File Copy and Permission Issues]]
+- [[Windows Black Screen After Login and Slow Startup]]
 - [[Windows Repair and Evidence Collection]]
 
 ## Core IT support concepts
