@@ -28,6 +28,7 @@ Use daily logs to remember what happened on a specific day.
 - [[Printer Spooler]]
 - [[Install Fuji Xerox Network Printers on a New Laptop]]
 - [[Meeting Room Display and HDMI]]
+- [[Wireless Display Source Powered but TV Shows No Signal]]
 - [[WiFi and AP Basic Checks]]
 - [[File Copy and Permission Issues]]
 - [[Windows Black Screen After Login and Slow Startup]]
