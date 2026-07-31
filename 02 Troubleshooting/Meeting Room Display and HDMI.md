@@ -141,6 +141,10 @@ Possible fix:
 - photos of current setup
 - what source/input was tested
 
+## Related troubleshooting notes
+
+- [[Wireless Display Source Powered but TV Shows No Signal]]
+
 ## Related daily logs
 
 - [[2026-06-18]]
