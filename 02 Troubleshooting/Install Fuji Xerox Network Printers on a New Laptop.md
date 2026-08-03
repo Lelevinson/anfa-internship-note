@@ -6,39 +6,51 @@ tags: #internship #troubleshooting #printer #fuji-xerox #windows #network-printe
 
 Use this when setting up the two company Fuji Xerox network printers on a new employee laptop.
 
-## Company-specific information from the internship note
+## Confirmed printer information
 
-### Printer 5571
+The printer-driver folders are located at:
 
 ```text
-MIS 公用 network folder
-→ 5571 FujiXerox 192.168.0.232_WIN
-→ copy/download to the employee laptop
-→ run launcher.exe
+Network
+→ 192.168.0.166
+→ mis共用
+→ 1_軟體
+→ 03_印表機驅動程式
 ```
 
-Likely printer IP:
+### 27F printer
 
 ```text
+Folder:
+27F_事務機_FujiXerox ApeosPort-VI C5571_192.168.0.232_win
+
+Model:
+Fuji Xerox ApeosPort-VI C5571
+
+IP:
 192.168.0.232
+
+Installer remembered from previous note:
+launcher.exe
 ```
 
-### Printer 3370
+### 30F printer
 
 ```text
-MIS 公用 network folder
-→ 3370 FujiXerox [IP folder]
-→ copy/download to the employee laptop
-→ run setup.exe
-```
+Folder:
+30F_事務機_FujiXerox ApeosPort-VI C3370_192.168.0.233_win_x64
 
-The raw note was split across lines. The likely IP is:
+Model:
+Fuji Xerox ApeosPort-VI C3370
 
-```text
+IP:
 192.168.0.233
+
+Installer remembered from previous note:
+setup.exe
 ```
 
-This is **not confirmed**. Check the internal IP allocation table before installing.
+The image also shows macOS driver folders, but use the Windows folders for company Windows laptops.
 
 ## Where to verify company information
 
@@ -50,7 +62,7 @@ MIS 公用 network folder
 → IP 分配表
 ```
 
-Exact location is forgotten.
+Exact location is still forgotten.
 
 For the internal installation manual:
 
@@ -60,7 +72,7 @@ MIS 公用 network folder
 → look for a file ending in 手冊
 ```
 
-Exact manual file name is forgotten.
+Exact manual file name is still forgotten.
 
 ## Terms
 
@@ -104,16 +116,19 @@ Before installation:
 - confirm the employee can access the MIS 公用 folder
 - use an administrator account if Windows asks for installation permission
 
-### Step 2: confirm exact printer information
+### Step 2: choose the correct driver folder
 
-Check the IP allocation table:
+For the 27F printer:
 
 ```text
-5571 → expected 192.168.0.232
-3370 → probably 192.168.0.233, must verify
+27F_事務機_FujiXerox ApeosPort-VI C5571_192.168.0.232_win
 ```
 
-Also confirm the full model name. `5571` and `3370` may refer to an ApeosPort or DocuCentre model/series.
+For the 30F printer:
+
+```text
+30F_事務機_FujiXerox ApeosPort-VI C3370_192.168.0.233_win_x64
+```
 
 ### Step 3: copy installer folder locally
 
@@ -127,13 +142,13 @@ Reason:
 
 ### Step 4: run the correct installer
 
-For 5571:
+For C5571:
 
 ```text
 run launcher.exe
 ```
 
-For 3370:
+For C3370:
 
 ```text
 run setup.exe
@@ -154,7 +169,12 @@ Settings
 → Ports
 ```
 
-Check that the selected port points to the correct printer IP.
+Check that the selected port points to the correct printer IP:
+
+```text
+C5571 → 192.168.0.232
+C3370 → 192.168.0.233
+```
 
 If the installer did not create the port, the normal manual method is:
 
@@ -230,9 +250,13 @@ Confirm the correct TCP/IP port is checked.
 
 ### Check 3: wrong driver/model
 
-Confirm the installed driver matches the exact 3370 or 5571 model/series.
+Confirm the installed driver matches:
 
-The official FUJIFILM PCL6 driver family supports several ApeosPort-VI and DocuCentre-VI models, including C3370 and C5571, but the company's internal installer/manual remains the authoritative setup for these printers.
+```text
+ApeosPort-VI C5571
+or
+ApeosPort-VI C3370
+```
 
 ### Check 4: accounting/user ID
 
@@ -244,8 +268,6 @@ If jobs remain stuck in Windows, see [[Printer Spooler]].
 
 ## Things still needing confirmation
 
-- Exact full model names for both printers
-- Confirmed IP for 3370
 - Exact location of 常用 IP address → IP 分配表
 - Exact file name of the 手冊 inside Gino's folder
 - Whether `133` is User ID, department code, accounting code or something else
