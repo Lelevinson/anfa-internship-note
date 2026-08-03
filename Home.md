@@ -20,6 +20,7 @@ Use daily logs to remember what happened on a specific day.
 - [[2026-07-06]]
 - [[2026-07-07]]
 - [[2026-07-30]]
+- [[2026-08-03]]
 
 ## Most useful support notes
 
@@ -51,6 +52,7 @@ Use daily logs to remember what happened on a specific day.
 - [[音訊 YINXUN Item Pricing Workflow]]
 - [[Appointment and Registration Notes]]
 - [[EIS Bell Alarm Notification Test]]
+- [[Large Meeting Room Screen Sharing and Zoom]]
 - [[客戶資料 Customer Data System]]
 - [[Equipment Locations]]
 
