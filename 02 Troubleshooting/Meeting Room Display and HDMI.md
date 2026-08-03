@@ -120,6 +120,19 @@ Possible fix:
 - Change 輸入來源 / input source to HDMI 4.
 - The issue may be related to AirPlay blocking or source mismatch.
 
+## Large meeting room / 大會議室 Zoom note
+
+For screen sharing together with Zoom:
+
+- use the mini PC as part of the room setup
+- set the Zoom speaker/audio output to the meeting-room speaker connected through the mini PC
+- ask Connie to accept the Zoom invitation link
+- confirm both screen sharing and audio work
+
+The exact speaker device name and the reason Connie must accept the invitation are not yet confirmed.
+
+See [[Large Meeting Room Screen Sharing and Zoom]].
+
 ## Safe troubleshooting order
 
 ```text
@@ -144,6 +157,7 @@ Possible fix:
 ## Related troubleshooting notes
 
 - [[Wireless Display Source Powered but TV Shows No Signal]]
+- [[Large Meeting Room Screen Sharing and Zoom]]
 
 ## Related daily logs
 
@@ -151,3 +165,4 @@ Possible fix:
 - [[2026-06-26]]
 - [[2026-06-30]]
 - [[2026-07-06]]
+- [[2026-08-03]]
